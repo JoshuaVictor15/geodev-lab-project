@@ -41,3 +41,10 @@
 - No: No Null fields
 - Polygon
 - Covers my LGA Fully
+
+## CRS and Preparation
+- All Source Layers Arrived in EPSG: 4326 - WGS 84
+- Study Area: Kaltungo LGA, extracted from GRID3 LGA Boundaries
+- All layers clipped to study Area, then reprojected to EPSG: 32632 (UTM 32N)
+- Area check: Kaltungo 1000.11 km2, matches the published figure
+- Working files in data/processed, raw files remain untouched 
