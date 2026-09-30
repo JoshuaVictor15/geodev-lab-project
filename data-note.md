@@ -12,7 +12,8 @@
 - Currency: Data were Captured between 2023-2025
 - Positional: Verified with Google image, the features align with their correct placement
 - Attribute: 80% of the facilities are owned by State Government, the rest are unknown
-- Fitness: Adequate for Analysis 
+- Fitness: Adequate for Analysis
+- Saved to data/processed/Health_facilities.gpkg
 
 ## Road and Path Network (Extracted Via QuickOSM)
 - Query: highway=* Within Kaltungo LGA Extent 
