@@ -7,7 +7,12 @@
 - Columns: `unique_id (Text), latitude (Decimal Number), longitude (Decimal Number), country (Text), iso (Text), state_stan (Text), lga_standa (Text), ward_stand (Text), ward_bdry (Text), ward_in_gr (Text), facility_n (Text), alt_name (Text), settlement (Text), facility_l (Text), facility_t (Text), facility_o (Text), facility_1 (Text), functional (Text), date_creat (Date), sett_ext_t (Text), mgrs_code (Text), input_data (Text), input_da_1 (Text), nhfr_facil (Text), gps_accura (Decimal Number), sett_ext_d (Decimal Number), dist_ward_ (Decimal Number), flag1 (Integer), flag2 (Integer), flag3 (Integer), flag4 (Integer), flag5 (Integer), flag6 (Integer), issues (Text), flag_count (Integer)`
 - Yes: `alt_name — 58 nulls,   settlement — 107 nulls (all records are null), facility_l — 30 nulls, facility_t — 31 nulls, facility_o — 30 nulls, facility_1 — 36 nulls, functional — 30 nulls, date_creat — 55 nulls, sett_ext_t — 8 nulls, mgrs_code — 8 nulls, nhfr_facil — 101 nulls, issues — 66 nulls`
 - Point
-- Covers my LGA fully 
+- Covers my LGA fully
+- Completeness: Complete according to the State Health Facilities Record
+- Currency: Data were Captured between 2023-2025
+- Positional: Verified with Google image, the features align with their correct placement
+- Attribute: 80% of the facilities are owned by State Government, the rest are unknown
+- Fitness: Adequate for Analysis 
 
 ## Road and Path Network (Extracted Via QuickOSM)
 - Query: highway=* Within Kaltungo LGA Extent 
@@ -43,6 +48,10 @@
 - Covers my LGA Fully
 
 ## CRS and Preparation
+- CRS Used: EPSG: 32632 (UTM 32N), it was incorporated because it is in meters which is best for GIS operations like calculations and measurement
+- Reprojected Datas: Health Facilities Point Data, Ward Boundary layer, LGA Boundary Layer, and Road Network Data
+- Clipped Data: Health Facilities Point Data, and Road Network Data
+-  
 - All Source Layers Arrived in EPSG: 4326 - WGS 84
 - Study Area: Kaltungo LGA, extracted from GRID3 LGA Boundaries
 - All layers clipped to study Area, then reprojected to EPSG: 32632 (UTM 32N)
