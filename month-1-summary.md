@@ -11,7 +11,7 @@ Which populated wards and settlements in Kaltungo LGA, Gombe State have poor acc
 
 ## Expected vs. Actual Results
 * **Expected:** 107 buffer polygons that will not cover Kaltungo LGA fully and densely overlap
-* **Actual:** 107 buffer polygons generated. Visual inspection shows heavy buffer overlap in central Wards, leaving peripheral regions of the LGA uncovered.
+* **Actual:** [107 buffer polygons generated](data/Health_Buffer_Undisolved.gpkg). Visual inspection shows heavy buffer overlap in central Wards, leaving peripheral regions of the LGA uncovered.
 
 ## Four-Way Verification Results
 - [x] **Map Inspection:** Buffers align correctly over health facility points.
