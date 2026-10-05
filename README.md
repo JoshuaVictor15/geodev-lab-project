@@ -5,7 +5,7 @@
 # Month 1: GIS Foundation and Data EcoSystem
 - [x] [Week 1](project-brief.md): Project brief with a source link for every dataset
 - [x] [Week 2](data-note.md): Data Downloaded, opened and described
-- [x] [Week 3](data-note.md): Reprojected, clipped and quality checked
+- [x] [Week 3](data-preparation.md): Reprojected, clipped and quality checked
 - [x] [Week 4](month-1-summary.md
 ): First Spatial Analysis
 
