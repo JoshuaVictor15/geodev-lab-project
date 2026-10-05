@@ -10,6 +10,6 @@
 ): First Spatial Analysis
 
 # Month 2: development environment and early Python
-- [x] [Week 5](Week_5_Screenshot.png): set up Python, VS Code and the terminal. [hello.py](hello.py) runs.
+- [x] [Week 5](image/Week_5_Screenshot.png): set up Python, VS Code and the terminal. [hello.py](hello.py) runs.
 
 Built over twelve months with Geodev Lab Africa, cohort one. See [project-brief.md](project-brief.md) for the full brief.
