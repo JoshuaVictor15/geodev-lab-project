@@ -1,5 +1,5 @@
 # My Project Brief
-Week 1 Deliverables Author: Joshua Victor 
+**Week 1 Deliverables Author: Joshua Victor**
 ## The Question
 >Which Populated Wards and Settlements in Kaltungo LGA, Gombe State have poor access to health facilities based on population distribution and the shortest available road-network to the nearest health facility?
 
