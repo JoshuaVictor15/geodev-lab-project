@@ -3,12 +3,12 @@
 
 What I reprojected, what I clipped, what I checked, and what I fixed
 
-## Coordinate system decisions
+## Coordinate System Decisions
 >CRS Used: EPSG: 32632 (UTM 32N)
 
 **Reason**: My project requires both area and distance calculations, therefore my chosen EPSG: 32632 is in meters and study area falls in UTM zone 32N 
 
-## Data preparation
+## Data Preparation
 |SN |Dataset |Default CRS |Modified CRS |Operation |
 |---|---|---|---|---|
 |1 |Health Facility Locations| EPSG:4326|EPSG: 32632 | Reprojected to the appropriate CRS, clipped to the study area, and saved as a GeoPackage named [Reproject_Kaltungo_Health_Facilities.gpkg](data/Reproject_Kaltungo_Health_Facilities.gpkg) |
@@ -17,21 +17,21 @@ What I reprojected, what I clipped, what I checked, and what I fixed
 |4 |Ward Boundaries| EPSG:4326|EPSG: 32632 |Reprojected to the appropriate CRS, clipped to the study area, and saved as a Geopackage named [Reproject_Kaltungo_Wards.gpkg](data/Reproject_Kaltungo_Wards.gpkg) |
 |5 |Kaltungo LGA Boundary| EPSG:4326|EPSG: 32632 |Selected the study area, reprojected it to the appropriate CRS and saved it as a Geopackage named [Reproject_Kaltungo_LGA.gpkg](data/Reproject_Kaltungo_LGA.gpkg) |
  
-  ## The five quality checks
+  ## The Five Quality Checks
 
 |S/N |Check |Result |Action taken |
 |---|---|---|---|
-|1 | Are the dataset what I think it is |yes |None |
-|2 |Are there nulls in the fields I need |yes |None |
-|3 |Are there duplicate features |yes |None |
+|1 | Are the dataset what I think it is |Yes |None |
+|2 |Are there nulls in the fields I need |No |None |
+|3 |Are there duplicate features |No |None |
 |4 |Are the geometry valid |yes |None |
 |5 |Does the coverage span the whole study area |yes |None |
 
-## The problems found, and what I did
+## The Problems Found, and What I did
 **Problem** I found no problem in the data based on what i need for my analysis
 
  
-## Analysis Ready output
+## Analysis Ready Output
 - All Source Layers Arrived in EPSG: 4326 - WGS 84
 - Study Area: Kaltungo LGA, extracted from GRID3 LGA Boundaries
 - All layers clipped to study Area, then reprojected to EPSG: 32632 (UTM 32N)
