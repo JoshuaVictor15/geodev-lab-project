@@ -15,7 +15,7 @@ What I reprojected, what I clipped, what I checked, and what I fixed
 |2 |Road and Path Network| EPSG:4326|EPSG: 32632 |Reprojected to the appropriate CRS, clipped to the study area, and saved as a GeoPackage named [Reproject_Highway_Klt.gpkg](data/Reproject_Highway_Klt.gpkg) |
 |3 |Population Distribution Data| EPSG:4326|EPSG: 32632 |Reprojected to the appropriate CRS, clipped to the study area, and saved as a Raster named [Reproject_Population_Kaltungo.tif](data/Reproject_Population_Kaltungo.tif) |
 |4 |Ward Boundaries| EPSG:4326|EPSG: 32632 |Reprojected to the appropriate CRS, clipped to the study area, and saved as a Geopackage named [Reproject_Kaltungo_Wards.gpkg](data/Reproject_Kaltungo_Wards.gpkg) |
-|5 |Kaltungo LGA Boundary| EPSG:4326|EPSG: 32632 |Selected the study area, reprojected it to the appropriate CRS and saved it as a Geopackage named [Reproject_Kaltungo_LGA.gpkg](Reproject_Kaltungo_LGA.gpkg) |
+|5 |Kaltungo LGA Boundary| EPSG:4326|EPSG: 32632 |Selected the study area, reprojected it to the appropriate CRS and saved it as a Geopackage named [Reproject_Kaltungo_LGA.gpkg](data/Reproject_Kaltungo_LGA.gpkg) |
  
   ## The five quality checks
 
