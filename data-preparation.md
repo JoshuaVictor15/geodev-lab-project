@@ -24,8 +24,8 @@ What I reprojected, what I clipped, what I checked, and what I fixed
 |1 | Are the dataset what I think it is |Yes |None |
 |2 |Are there nulls in the fields I need |No |None |
 |3 |Are there duplicate features |No |None |
-|4 |Are the geometry valid |yes |None |
-|5 |Does the coverage span the whole study area |yes |None |
+|4 |Are the geometry valid |Yes |None |
+|5 |Does the coverage span the whole study area |Yes |None |
 
 ## The Problems Found, and What I did
 **Problem** I found no problem in the data based on what i need for my analysis
