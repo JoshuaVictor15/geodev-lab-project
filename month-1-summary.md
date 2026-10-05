@@ -1,6 +1,6 @@
 # Month 1 Spatial Analysis Summary
 
-![Health Facility Catchment Map](kaltungo_health_access_map.png)
+![Health Facility Catchment Map](image/kaltungo_health_access_map.png)
 
 ## Restated Question
 Which populated wards and settlements in Kaltungo LGA, Gombe State have poor access to health facilities based on spatial distribution and travel distance?
