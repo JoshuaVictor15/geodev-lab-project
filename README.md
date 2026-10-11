@@ -9,7 +9,8 @@
 - [x] [Week 4](month-1-summary.md
 ): First Spatial Analysis
 
-# Month 2: development environment and early Python
-- [x] [Week 5](image/Week_5_Screenshot.png): set up Python, VS Code and the terminal. [hello.py](hello.py) runs.
+# Month 2: Development Environment and Early Python
+- [x] [Week 5](Screenshot/Week_5_Screenshot.png): set up Python, VS Code and the terminal. [hello.py](hello.py) runs.
+- [x] [Week 6](pyproject.toml) Set up the project with [uv](uv.lock) and added pandas. [check.py](check.py) prints the pandas version.
 
 Built over twelve months with Geodev Lab Africa, cohort one. See [project-brief.md](project-brief.md) for the full brief.
