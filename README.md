@@ -12,5 +12,6 @@
 # Month 2: Development Environment and Early Python
 - [x] [Week 5](Screenshot/Week_5_Screenshot.png): set up Python, VS Code and the terminal. [hello.py](hello.py) runs.
 - [x] [Week 6](pyproject.toml) Set up the project with [uv](uv.lock) and added pandas. [check.py](check.py) prints the pandas version.
+- [x] [Week 7](Screenhot/week7.png): [analyse.py](analyse.py) reads [wards.csv](wards.csv), converts each area and classifies each ward.
 
 Built over twelve months with Geodev Lab Africa, cohort one. See [project-brief.md](project-brief.md) for the full brief.
