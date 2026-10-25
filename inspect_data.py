@@ -1,29 +1,5 @@
 import csv
 
-# with open('Ward_Boundaries.csv', encoding='utf-8-sig') as f:
-#     reader = csv.DictReader(f)
-#     rows = list(reader)
-
-# values= []
-# for row in rows:
-#     value = float(row["area_km2"])
-#     values.append(value)
-
-# print("Largest Value: ", max(values))
-# print("Smallest Value: ", min(values))
-# print("Count: ", len(values))
-
-# values = []
-# for row in rows:
-#     raw = row["area_km2"].strip()
-#     if raw == "":
-#         continue
-#     values.append(float(raw))
-
-# print("Largest Value: ", max(values))
-# print("Smallest Value: ", min(values))
-# print("Count: ", len(values))
-
 def inspect_column(filename, column):
     with open(filename, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
