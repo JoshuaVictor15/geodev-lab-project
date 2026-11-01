@@ -14,5 +14,11 @@
 - [x] [Week 6](pyproject.toml) Set up the project with [uv](uv.lock) and added pandas. [check.py](check.py) prints the pandas version.
 - [x] [Week 7](Screenshot/week7.png) [analyse.py](analyse.py) reads [wards.csv](wards.csv), converts each area and classifies each ward.
 - [x] [Week 8](Screenshot/week8.png) [inspect_data.py](inspect_data.py) summarizes Area and Unique IDs in my [Ward_Boundaries.csv](Ward_Boundaries.csv) data.
+- [x] [Week 9](Screenshot/week9.png) Consolidation and Refractoring
+## Month 2 Reflection
+What clicked: Transitioning from manual scripts to clean, Python functions.
+Still fuzzy: Sharpening confidence in handling mixed data types during automated cleaning.
+Capstone insight: Structured function design turns raw Month 1 spatial data into reliable, repeatable outputs.
+
 
 Built over twelve months with Geodev Lab Africa, cohort one. See [project-brief.md](project-brief.md) for the full brief.
