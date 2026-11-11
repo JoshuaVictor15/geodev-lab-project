@@ -19,6 +19,8 @@
 What clicked: Transitioning from manual scripts to clean, Python functions.
 Still fuzzy: Sharpening confidence in handling mixed data types during automated cleaning.
 Capstone insight: Structured function design turns raw Month 1 spatial data into reliable, repeatable outputs.
+# Month 3 Geospatial Python Automation
+- [x] Week 10: GeoPandas. Loaded, checked, joined and mapped my layer in code.
 
 
 Built over twelve months with Geodev Lab Africa, cohort one. See [project-brief.md](project-brief.md) for the full brief.
