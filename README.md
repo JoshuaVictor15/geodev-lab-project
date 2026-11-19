@@ -21,6 +21,7 @@ Still fuzzy: Sharpening confidence in handling mixed data types during automated
 Capstone insight: Structured function design turns raw Month 1 spatial data into reliable, repeatable outputs.
 # Month 3 Geospatial Python Automation
 - [x] [Week 10](Month_3/Week_10/): GeoPandas. Loaded, checked, joined and mapped my [Health Facilities in Kaltungo LGA](Month_3/Week_10/my_map.png) in code.
+- [x] [Week 11](Month_3/Week_11/): Week 11: CRS and spatial operations. Reprojected to EPSG:32632 and measured [Facility count](Month_3/Week_11/my_count.py) and [Kaltungo LGA](Month_3/Week_11/my_crs.py) area in km2. Limitation: Facility count only counts the number of health facilites in each ward but do not give details about there quality of service.
 
 
 Built over twelve months with Geodev Lab Africa, cohort one. See [project-brief.md](project-brief.md) for the full brief.
