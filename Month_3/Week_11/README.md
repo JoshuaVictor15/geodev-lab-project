@@ -2,7 +2,6 @@
 
 ## What this folder contains
 ### Guided Scripts
-### Guided Scripts
 - [x] `area_wrong_and_right.py`: Reprojects wards and calculates accurate areas.
 - [x] `clip_dissolve.py`: Clips roads, calculates road length, and dissolves ward boundaries.
 - [x] `coverage_gap.py`: Calculates uncovered ward areas using 2 km buffers.

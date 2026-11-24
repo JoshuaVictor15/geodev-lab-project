@@ -2,7 +2,6 @@
 
 ## What this folder contains
 ### Guided Scripts
-### Guided Scripts
 - [x] `csv_to_points.py`: Converts health facility CSV coordinates to spatial points.
 - [x] `explore_layer.py`: Inspects ward dataset properties.
 - [x] `explore_pandas.py`: Explores population data and statistics.

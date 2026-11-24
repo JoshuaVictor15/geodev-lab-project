@@ -2,7 +2,6 @@
 
 ## What this folder contains
 ### Guided Scripts
-### Guided Scripts
 - [x] `clip_raster.py`: Clips the DEM to Ibadan North.
 - [x] `inspect_raster.py`: Inspects raster properties and metadata.
 - [x] `ndvi.py`: Calculates and exports NDVI.
