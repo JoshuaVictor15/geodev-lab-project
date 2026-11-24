@@ -2,21 +2,23 @@
 
 ## What this folder contains
 ### Guided Scripts
-- [x] `area_wrong_and_right.py`: Reprojects ward boundaries to UTM Zone 31N, calculates individual ward areas, and total area of Ibadan North in square kilometres.
-- [x] `clip_dissolve.py`: Clips roads to Agodi ward, calculates total road length, and dissolves ward boundaries to calculate the LGA area.
-- [x] `coverage_gap.py`: Creates and dissolves 2 km buffers around health facilities, then calculates the uncovered area and percentage of each ward.
-- [x] `fix_geometry.py`: Creates an invalid polygon, identifies its geometry error, repairs it, and verifies its validity and new geometry type.
-- [x] `nearest.py`: Calculates ward centroids, identifies the nearest health facility to each centroid, and measures the straight-line distance in kilometres.
-- [x] `one_point.py`: Transforms longitude and latitude coordinates WGS 1984 into UTM Zone 31N Easting and Northing coordinates.
-- [x] `set_vs_to.py`: Demonstrates the difference between reprojecting and assigning a CRS, and saves an incorrectly labelled as `wards_wrongly_labelled.gpkg`
-- [x] `spatial_ops.py`: Creates 2 km buffers around health facilities and uses a spatial join to count the number of facilities within each ward.
+### Guided Scripts
+- [x] `area_wrong_and_right.py`: Reprojects wards and calculates accurate areas.
+- [x] `clip_dissolve.py`: Clips roads, calculates road length, and dissolves ward boundaries.
+- [x] `coverage_gap.py`: Calculates uncovered ward areas using 2 km buffers.
+- [x] `fix_geometry.py`: Identifies and repairs invalid geometries.
+- [x] `nearest.py`: Calculates distances from ward centroids to the nearest health facilities.
+- [x] `one_point.py`: Transforms coordinates from WGS 84 to UTM Zone 31N.
+- [x] `set_vs_to.py`: Demonstrates the difference between assigning and reprojecting a CRS.
+- [x] `spatial_ops.py`: Creates 2 km buffers and counts facilities per ward.
+
 ### Independent Challenge
-- [x] `my_count.py`: Uses a spatial join to count health facilities within each ward in Kaltungo LGA and verifies the total facility count.
-- [x] `my_crs.py`: Reprojects ward boundaries to UTM Zone 32N, calculates individual ward areas, and total area of Kaltungo LGA in square kilometres.
-- [x] `my_map.py`: Creates and saves a map showing ward boundaries, health facility locations, and dissolved 5 km buffers in Kaltungo LGA.
-- [x] `my_reach.py`: Creates and dissolves 5 km health facility buffers, calculates the uncovered area and percentage of each ward in Kaltungo LGA, and saves the dissolved buffer as a GeoPackage named `my_buffer.gpkg`
-- [x] `my_validity.py`: Checks ward geometry validity, identifies and counts invalid geometries, repairs them, and verifies the corrected geometries.
-- [x] `my_buffer_map.png`: The output map from `my_map.py` showing the health facilities, the 5km dissolve buffer and the wards polygon in Kaltungo LGA
+- [x] `my_count.py`: Counts health facilities per ward in Kaltungo LGA.
+- [x] `my_crs.py`: Reprojects wards to UTM Zone 32N and calculates areas.
+- [x] `my_map.py`: Creates and exports a health facility coverage map.
+- [x] `my_reach.py`: Calculates uncovered ward areas and percentages using 5 km buffers.
+- [x] `my_validity.py`: Checks and repairs invalid ward geometries.
+- [x] `my_buffer_map.png`: Health facility map showing dissolved 5 km buffers in Kaltungo LGA.
 #### Reason for using 5km Buffer
 I used 5 kilometres buffer for the health facilities because 5km is within the accessibility benchmark of World Health Organisation (WHO), however this does not account for actual travel time
 

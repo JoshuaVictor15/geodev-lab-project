@@ -2,25 +2,26 @@
 
 ## What this folder contains
 ### Guided Scripts
-- [x] `clip_raster.py`: Dissolves ward boundaries, clips the DEM to Ibadan North, and saves the clipped raster while comparing pixel dimensions before and after clipping.
-- [x] `inspect_raster.py`: Inspects the DEM raster’s dimensions, band count, data type, CRS, pixel size, spatial bounds, NoData value, and affine transform.
-- [x] `ndvi.py`: Applies Landsat surface reflectance scaling, calculates NDVI using the Red and NIR bands, displays NDVI statistics, and saves the output as a GeoTIFF.
-- [x] `pixel_coords.py`: Converts raster pixel indices to spatial coordinates and spatial coordinates to raster row and column indices.
-- [x] `plot_raster.py`: Visualises NDVI using a red-yellow-green colour scale, adds a colour bar, and saves the vegetation index map as a PNG file.
-- [x] `read_values.py`: Reads the DEM, masks NoData pixels, calculates minimum, maximum and mean elevation, and counts NoData cells.
-- [x] `reproject_raster.py`: Reprojects the DEM to WGS 84 using bilinear resampling, saves the output, and verifies the new CRS and pixel size.
-- [x] `sample_points.py`: Extracts elevation values from the DEM at health facility locations and assigns them to the `elevation_m` column.
-- [x] `zonal_stats.py`: Performs zonal statistics to calculate and display the mean elevation for each ward.
-- [x] `ndvi_map.png`: Map output from `plot_raster.py`
-### Independent Challenge
-- [x] `my_index.py`: Applies Landsat surface reflectance scaling, calculates NDVI using the Red and NIR bands, displays NDVI statistics, and saves the output as a GeoTIFF using my downloaded datasets.
-- [x] `my_inspect.py`: Inspects my SRTM DEM’s dimensions, band count, data type, CRS, pixel size, spatial bounds, NoData value, and affine transform.
-- [x] `my_zonal.py`: Performs zonal statistics to calculate the mean elevation for each ward in Kaltungo LGA and exports the results as a CSV file.
-- [x] `my_zonal_stats.csv`: CSV output file from `my_zonal.py` containing mean elevation for each ward
-- [x] `my_clip_raster.py`: Dissolves ward boundaries, clips Landsat Red (SR_B4), NIR (SR_B5), and SRTM DEM rasters to Kaltungo LGA, and saves the clipped outputs.
-- [x] `my_map.py`: Visualises NDVI for Kaltungo LGA using a red-yellow-green colour scale, adds a colour bar, and saves the map as a PNG file.
-- [x] `my_map.png`: Output map made from `my_map.py` visualizing the vegetation index of the LGA
+### Guided Scripts
+- [x] `clip_raster.py`: Clips the DEM to Ibadan North.
+- [x] `inspect_raster.py`: Inspects raster properties and metadata.
+- [x] `ndvi.py`: Calculates and exports NDVI.
+- [x] `pixel_coords.py`: Converts between pixel indices and spatial coordinates.
+- [x] `plot_raster.py`: Visualises NDVI and exports a map.
+- [x] `read_values.py`: Calculates elevation statistics and counts NoData cells.
+- [x] `reproject_raster.py`: Reprojects the DEM to WGS 84.
+- [x] `sample_points.py`: Extracts elevation at health facility locations.
+- [x] `zonal_stats.py`: Calculates mean elevation per ward.
+- [x] `ndvi_map.png`: NDVI map from `plot_raster.py`.
 
+### Independent Challenge
+- [x] `my_index.py`: Calculates and exports NDVI for Kaltungo LGA.
+- [x] `my_inspect.py`: Inspects SRTM DEM properties.
+- [x] `my_zonal.py`: Calculates and exports mean elevation per ward.
+- [x] `my_zonal_stats.csv`: Mean elevation statistics per ward.
+- [x] `my_clip_raster.py`: Clips Landsat bands and DEM to Kaltungo LGA.
+- [x] `my_map.py`: Visualises and exports the NDVI map.
+- [x] `my_map.png`: NDVI map of Kaltungo LGA.
 
 ## How to run it
 From the repository root:
