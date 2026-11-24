@@ -1,24 +1,15 @@
-# Python virtual environments
+# Python environment and caches
 .venv/
-venv/
-
-# Python cache
 __pycache__/
 *.pyc
 
-# Environment secrets
-.env
-.env.*
-
-# VS Code local settings
-.vscode/
-
-# Raster files
+# Rasters and archives are large: keep them on your laptop
+# and describe them in data-notes.md
 *.tif
-*.tiff
 *.TIF
-*.TIFF
-
-# Compressed files
 *.zip
-*.rar
+
+# Editor and system clutter
+.DS_Store
+Thumbs.db
+.vscode/
