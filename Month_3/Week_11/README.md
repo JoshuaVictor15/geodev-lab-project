@@ -17,6 +17,8 @@
 - [x] `my_reach.py`: Creates and dissolves 5 km health facility buffers, calculates the uncovered area and percentage of each ward in Kaltungo LGA, and saves the dissolved buffer as a GeoPackage named `my_buffer.gpkg`
 - [x] `my_validity.py`: Checks ward geometry validity, identifies and counts invalid geometries, repairs them, and verifies the corrected geometries.
 - [x] `my_buffer_map.png`: The output map from `my_map.py` showing the health facilities, the 5km dissolve buffer and the wards polygon in Kaltungo LGA
+#### Reason for using 5km Buffer
+I used 5 kilometres buffer for the health facilities because 5km is within the accessibility benchmark of World Health Organisation (WHO), however this does not account for actual travel time
 
 ## How to run it
 From the repository root:
