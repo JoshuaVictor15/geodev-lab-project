@@ -10,7 +10,7 @@
 |4| Ward Boundaries | [GRID3](https://data.grid3.org/datasets/0824aded5f5a4d39b10871c667aa8ccf_0/explore?filters=eyJsZ2FuYW1lIjpbIkthbHR1bmdvIl19&location=9.831131%2C11.496417%2C10)| Polygon | 10 | `uniq_id, wardname, wardcode, lganame, lgacode, statename, statecode, urban`| The Data covers the study area, no `Null` values | 13-09-2026 |
 |5|LGA Boundary|[GRID3](https://data.grid3.org/datasets/2bb616a49ee84f409427cc2143787113_0/explore?location=8.415591%2C10.827624%2C7)|Polygon|1|`uniq_id, lganame, lgacode, statename, statecode, wkt_geom`|Covers my Study Area fully|13-09-2026|
 
-**Month_3/Week_12 Downloaded Datasets and thier details**
+**Month_3/Week_12 Downloaded Datasets and their details**
 >The Table below describes the exact datasets downloaded and used for Month_3/Week_12 Independent challenge.
 
 | S/N| Product Name| Scene/Tile Name | Date | Cloud Cover |
