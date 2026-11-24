@@ -30,4 +30,4 @@ uv run Month_3/Week_10/script.py
 - From my data i found out that converting CSV to points in (EPSG:4326) contradicts my wards layer geopackage which is in (EPSG:32632)
 
 ## What went wrong and how I fixed it
-`my_map.py` output at first do not stay at the exact place because they have different projections. I fixed that by reprojecting the points to (EPSG:32632) which alligned with the wards CRS before creating the final map
+The `my_map.py` output initially showed misaligned features because the datasets had different coordinate reference systems (CRS). I fixed this by reprojecting the health facility points to EPSG:32632, matching the wards CRS before creating the final map.
