@@ -16,7 +16,8 @@
 | S/N| Product Name| Scene/Tile Name | Date | Cloud Cover |
 |---|---|---|---|---|
 |1 | Landsat 9 OLI-2/TIRS-2 Collection 2 Level-2 | LC09_L2SP_186053_20260125_20260126_02_T1 | 25/01/2026 | 0.10% |
-|2| SRTM 1 Arc-Second Global V3 DEM | SRTM1N10E011V3| 23/09/2014 (Publication date) | N/A |
+|2| Shuttle Radar Topography Mission (SRTM GL1) Global 30m | SRTMGL1| 02/11/2000 (Publication date) | N/A |
+>The SRTM GL1 Global 30m was downloaded from `Open-Topography`. Reason: USGS was experiencing a downtime at the time of download.
 
 **Status:** Complete.
 >Check [Week 3](data-preparation.md) Reprojection and quality checks
