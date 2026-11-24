@@ -12,3 +12,13 @@ __pycache__/
 
 # VS Code local settings
 .vscode/
+
+# Raster files
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+
+# Compressed files
+*.zip
+*.rar
